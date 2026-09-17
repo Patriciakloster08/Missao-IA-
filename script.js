@@ -9,11 +9,13 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Utilizando palestras para prevenir o cyberbullying nas escolas.",
-                afirmacao: "Você é uma pessoa reflexiva e busca aprendizado e conhecimento."
+                afirmacao: "Você é uma pessoa reflexiva e busca aprendizado e conhecimento.",
+                           "Você é alguém introspectivo que valoriza a evolução intelectual."
             },
             {
                 texto:  "Prestando atenção aos sinais de cyberbullying nas escolas.",
-                afirmacao: "Você é uma pessoa observadora, pois se preocupa com o bem estar dos seus alunos."
+                afirmacao: "Você é uma pessoa observadora, pois se preocupa com o bem estar dos seus alunos.",
+                           "Sua capacidade de observação nasce do seu compromisso com o acolhimento dos alunos."
             }    
            
         ]
@@ -24,7 +26,8 @@ const perguntas = [
             alternativas: [
                 {
                     texto: "A energia geotérmica precisa ser mais explorada visto que utiliza o calor interno da terra, pois não depende do clima e é inesgotável.",
-                    afirmacao: "Você demonstra um perfil  de pesquisador e inovador que busca por meio da inovação soluções para o meio ambiente e sustentabilidade das gerações posteriores."
+                    afirmacao: "Você demonstra um perfil  de pesquisador e inovador que busca por meio da inovação soluções para o meio ambiente e sustentabilidade das gerações posteriores.",
+                               "Sua atuação une pesquisa e inovação para criar respostas ambientais que protejam as gerações futuras."
                 },
                 {
                     texto:  "Seria interessante explorar primeiramente fontes renováveis exotérmicas, em segundo plano utilizar a energia geotérmica apesar dos custos elevados de explorações e possibilidades de contaminação de rios. ",
