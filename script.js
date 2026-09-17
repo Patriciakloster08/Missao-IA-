@@ -9,14 +9,16 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Utilizando palestras para prevenir o cyberbullying nas escolas.",
-                afirmacao: "Você é uma pessoa reflexiva e busca aprendizado e conhecimento.",
+                afirmacao: ["Você é uma pessoa reflexiva e busca aprendizado e conhecimento.",
                            "Você é alguém introspectivo que valoriza a evolução intelectual."
-            },
+             ]
+                        },
             {
                 texto:  "Prestando atenção aos sinais de cyberbullying nas escolas.",
-                afirmacao: "Você é uma pessoa observadora, pois se preocupa com o bem estar dos seus alunos.",
+                afirmacao:["Você é uma pessoa observadora, pois se preocupa com o bem estar dos seus alunos.",
                            "Sua capacidade de observação nasce do seu compromisso com o acolhimento dos alunos."
-            }    
+            ]
+                        }    
            
         ]
     },
@@ -26,13 +28,16 @@ const perguntas = [
             alternativas: [
                 {
                     texto: "A energia geotérmica precisa ser mais explorada visto que utiliza o calor interno da terra, pois não depende do clima e é inesgotável.",
-                    afirmacao: "Você demonstra um perfil  de pesquisador e inovador que busca por meio da inovação soluções para o meio ambiente e sustentabilidade das gerações posteriores.",
+                    afirmacao:[  "Você demonstra um perfil  de pesquisador e inovador que busca por meio da inovação soluções para o meio ambiente e sustentabilidade das gerações posteriores.",
                                "Sua atuação une pesquisa e inovação para criar respostas ambientais que protejam as gerações futuras."
-                },
+                ]
+                            },
                 {
                     texto:  "Seria interessante explorar primeiramente fontes renováveis exotérmicas, em segundo plano utilizar a energia geotérmica apesar dos custos elevados de explorações e possibilidades de contaminação de rios. ",
-                    afirmacao: "Você é uma pessoa que dá ênfase em priorizar os recursos disponíveis, pensando no meio ambiente e sem descartar o viés econômico."
-                }    
+                    afirmacao: ["Você é uma pessoa que dá ênfase em priorizar os recursos disponíveis, pensando no meio ambiente e sem descartar o viés econômico.",
+                               "Você prioriza a otimização de recursos, equilibrando a responsabilidade ambiental com a viabilidade econômica."
+                    ]
+                            }    
                
             ]
         },
@@ -42,13 +47,17 @@ const perguntas = [
             alternativas: [
                 {
                     texto: "Na maior parte do tempo, com certeza impacta, pois é a partir da autoestima que temos um olhar positivo ou negativo sobre nossas ações diárias. Sempre estou em busca de mais autoconhecimento.",
-                    afirmacao: "Você tem consciência que é importante ter uma boa auto-estima e procura se aprofundar mais sobre o assunto, vendo a vida de um jeito positivo."
-                },
+                    afirmacao: ["Você tem consciência que é importante ter uma boa auto-estima e procura se aprofundar mais sobre o assunto, vendo a vida de um jeito positivo.", 
+                               "Você reconhece o valor de uma autoestima fortalecida e busca evoluir nesse aspecto, encarando a vida com positividade."
+                    ]
+                            },
                 {
                     texto:    "Apenas ocasionalmente ou raramente. Às vezes minha autoestima oscila e isso pode afetar negativamente minha qualidade de vida em certas ocasiões.",
                
-                    afirmacao: "Você demomostra que precisa se conhecer mais e mostra uma consciência de uma crescente necessidade de cuidar mais da própria percepção e bem-estar emocional."
-                }    
+                    afirmacao: ["Você demomostra que precisa se conhecer mais e mostra uma consciência de uma crescente necessidade de cuidar mais da própria percepção e bem-estar emocional.",
+                               "Você reconhece a importância do autoconhecimento e demonstra uma busca consciente por mais equilíbrio e bem-estar emocional."
+                    ]
+                            }    
                
             ]
         },
